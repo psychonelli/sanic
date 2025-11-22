@@ -12,8 +12,7 @@ import consulting from '../assets/oonsulting.png';
 import event from '../assets/event.png';
 import cyber from '../assets/cybersecurity.png';
 import cctv from '../assets/cctvv.png';
-import { Analytics } from "@vercel/analytics/next"
-
+import { Analytics } from '@vercel/analytics/react';
 // --- Reusable Animated Section Component ---
 const AnimatedSection = ({ children, className, threshold = 0.15 }) => {
     const { ref, inView } = useInView({
