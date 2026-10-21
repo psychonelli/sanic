@@ -6,10 +6,10 @@ import Seo from '../components/Seo';
 
 // Sample data for the Director Board
 const directors = [
-  { id: 1, name: "Saman Wedagama", title: "CEO & Founder", },
-  { id: 2, name: "Dilshan Wedagama", title: "Chief Technology Officer",  },
-  { id: 3, name: "Sampath Adikari", title: "Head of Tactical Operations",  },
-  { id: 4, name: "Chandima Premachandra", title: "Chief Financial Officer", },
+  { id: 1, name: "Saman Wedagama", title: "CEO & Founder", img: "/images/director1.jpg" },
+  { id: 2, name: "Dilshan Wedagama", title: "Chief Technology Officer", img: "/images/director2.jpg" },
+  { id: 3, name: "Sampath Adikari", title: "Head of Operations", img: "/images/director3.jpg" },
+  { id: 4, name: "Chandima Premachandra", title: "Chief Financial Officer", img: "/images/director4.jpg" },
 ];
 
 const AnimatedSection = ({ children, className = '', threshold = 0.15 }) => {

@@ -160,7 +160,7 @@ function Home() {
                   <div className="stat-label">Rapid Incident Dispatch Time</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">100%</div>
+                  <div className="stat-number">98%</div>
                   <div className="stat-label">Vetted Military &amp; Police Veterans</div>
                 </div>
               </div>
